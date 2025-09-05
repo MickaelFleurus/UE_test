@@ -11,5 +11,12 @@ enum class EItemType : uint8
 {
     Obtainable UMETA(DisplayName = "Obtainable"),
     Interactible UMETA(DisplayName = "Interactible"),
-    Describtion UMETA(DisplayName = "Describtion")
+    Description UMETA(DisplayName = "Description")
+};
+
+UENUM(BlueprintType)
+enum class EKeyType : uint8 {
+    Multipass UMETA(DisplayName = "Multipass"),
+    Heart UMETA(DisplayName = "Heart"),
+    Blue UMETA(DisplayName = "Blue")
 };
